@@ -11,5 +11,5 @@ spring:
       data-locations: 'classpath:data/data.sql'
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     defer-datasource-initialization: true
